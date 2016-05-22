@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file -->
+<project name="Utility Library" default="CreateJar">
+	<property name="src" location="src" />
+	<property name="classes" location="bin" />
+	<target name="CreateJar" description="Create Jar file">
+		<jar jarfile="jar/anurag-util.jar">
+			<fileset dir="${classes}" />
+			<fileset dir="${src}" includes="**/*.java" />
+		</jar>
+	</target>
+</project>
