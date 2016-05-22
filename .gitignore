@@ -1,1 +1,7 @@
 /bin/
+/.externalToolBuilders/
+/.settings/
+/doc/
+/jar/
+/.classpath
+/.DS_Store
